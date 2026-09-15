@@ -1,0 +1,242 @@
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v51-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v51-latin-900.woff2') format('woff2'); }
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v51-latin-500.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v51-latin-700.woff2') format('woff2'); 
+}
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+ul{
+list-style:none;
+}
+a{
+text-decoration:none;
+color:black;
+}
+body{
+font-family:"Roboto";
+color: #373737;
+
+}
+
+.header{
+background-color:white;
+margin-bottom:140px ;
+padding-top:33px;
+padding-bottom:8px;
+position:fixed;
+width: 100%;
+top: 0;
+}
+.plans-link{
+border:2px solid black;
+padding:5px 26px;   
+}
+.container{
+width:1200px;
+margin:0 auto;
+}
+.header-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.header-nav{
+display:flex;
+align-items:center;
+position: relative;
+}
+.header-nav::after{
+position: absolute;
+width: 23px;
+height: 3px;
+top:0;
+content: '';
+background: rgba(113, 124, 255, 1);
+border-radius: 10px;
+margin-top: 50px;
+}
+
+.header-list{
+display:flex;
+}
+.header-item{
+margin-right:125px;
+
+}
+.header-item-link{
+font-family: "Roboto", sans-serif;
+font-size:16px;
+font-weight:400;
+line-height:100%;
+letter-spacing:0%;
+}
+.intro{
+background-color:#FFFFFF;
+color: black;
+margin-bottom: 25px ;
+margin-top: 105px;
+}
+.intro-list{
+   color: rgba(125, 125, 125, 1);
+}
+.intro-container{
+display: flex;
+justify-content: space-between;
+padding-top:57px;
+}
+.intro-content{
+width: 407px;
+padding-top:57px;
+}
+.intro-slogon{
+font-family: "Roboto";
+font-weight: 700;
+font-size: 42px;
+letter-spacing: 0%;
+margin-bottom: 15px;
+}
+.intro-text{
+line-height: 76px;
+letter-spacing:47px ;
+margin-bottom:125.5px;
+}
+.services{
+margin-bottom:126px;
+}
+.services-title{
+font-weight: 700;
+font-size: 37px;
+line-height: 54px;
+letter-spacing: -0.46px;
+margin-bottom: 25px;
+}
+.servisec-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 0px;
+    color: #7d7d7d;
+    width: 9950px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+.services-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 47px;
+}
+.services-item{
+width:350px;
+border-radius: 15px;
+margin-bottom: 56px;
+padding: 29px 17px 30px 31px;
+}
+.services-item-element{
+display: inline-block;
+width:76px;
+height:76px;
+background: #717CFF;
+border-radius: 50%;
+margin-bottom: 30px;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.services-item:nth-child(1){
+    .services-item-element{
+        background-color: #717CFF;}
+}
+.services-item:nth-child(2){
+    .services-item-element{
+        background-color: rgba(250, 112, 108, 1)
+
+    }
+}
+.services-item:nth-child(3){
+    .services-item-element{
+        background-color: green;
+
+    }
+}
+.services-item:nth-child(4){
+    .services-item-element{
+        background-color:blue;
+
+    }
+}
+.services-item:nth-child(2){
+    .services-item-element{
+        background-color: rgba(255, 89, 89, 1);
+
+    }
+}
+
+.services-item-element--wifi{
+background-image: url(../img/wifi.png);
+}
+.services-item-element--album{
+background-image: url(../img/album.png);
+}
+.services-item-element--ticket{
+background-image: url(../img/ticket.png);
+}
+.services-item-element--home{
+background-image: url(../img/home.png);
+}
+.services-item-element--airplane{
+background-image: url(../img/airplane.png);
+}
+.services-item-title{
+font-family: "Roboto";
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.44px;
+margin: bottom 25px;
+}
+.services-item-text{
+font-weight: 28px;
+line-height: 37px;
+letter-spacing: 0.44px;
+color: #37474F;
+margin-bottom: 25px;
+}
+.services-item-link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0.44px;
+    color: #717CFF;
+    padding-right:40px;
+background-image: url(../img/arrow_forward_24px\ .png);
+background-repeat: no-repeat;
+background-position: right center;
+}
